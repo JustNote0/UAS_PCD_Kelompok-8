@@ -39,18 +39,21 @@ Kelompok 8 - Mata Kuliah Pengolahan Citra Digital:
 
 1. **Exploratory Data Analysis (EDA)**  
    - Menampilkan contoh gambar dari setiap kelas
-   - Visualisasi distribusi kelas
+   - Melihat distribusi kelas
+   - Visualisasi sampel gambar
+   - Cek ukuran, duplikasi, dan kualitas gambar
 
-2. **Preprocessing Data**  
-   - Konversi gambar ke grayscale
+2. **Preprocessing Data**
    - Resize gambar untuk keseragaman ukuran
-   - Normalisasi dan augmentasi gambar jika diperlukan
+   - Konversi gambar ke grayscale
+   - Enhancement Menggunakan CLAHE
 
-3. **Ekstraksi Fitur**  
+4. **Ekstraksi Fitur**  
    - **Local Binary Pattern (LBP)**: untuk mendeskripsikan tekstur lokal
    - **Gray Level Co-occurrence Matrix (GLCM)**: untuk mengekstrak fitur statistik dari tekstur (contrast, correlation, energy, dll.)
+   - Penggabungan kedua macam ekstraksi fitur (**LBP & GLCM**)
 
-4. **Model Training & Evaluasi**
+5. **Model Training & Evaluasi**
    - Algoritma klasifikasi: **Support Vector Machine (SVM)**
    - Evaluasi menggunakan:
      - Confusion Matrix
