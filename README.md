@@ -21,9 +21,9 @@ Kelompok 8 - Mata Kuliah Pengolahan Citra Digital:
 
 ```
 .
-├── Poster PCD_Kelompok 8.png         # Ringkasan hasil proyek dalam bentuk visual poster
+├── Poster PCD_Kelompok 8.png              # Ringkasan hasil proyek dalam bentuk visual poster
 ├── PCD_Kelompok_8_(163,060,098).ipynb     # Notebook lengkap berisi langkah-langkah EDA, preprocessing, dan modelling
-├── README.md                         # File ini
+├── README.md                              # File ini
 ```
 
 ---
